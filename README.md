@@ -12,9 +12,10 @@
 
 2. Склонируйте репозиторий проекта:
 
-   ```
-    git clone [https://github.com/your/repository.git](https://github.com/Clever1mistory/Email_sender)
-   ```
+```
+    git clone https://github.com/Clever1mistory/Email_sender
+    cd email_service
+```
 
 
 4. Создайте и активируйте виртуальное окружение:
@@ -24,21 +25,21 @@
     
 
 5. Установите зависимости:
-
+```
     pip install -r requirements.txt
-    
+```
 
 6. Примените миграции:
-
+```
     python manage.py migrate
-    
+```  
 
 ## Использование
 
 1. Запустите локальный сервер разработки:
-
+```
     python manage.py runserver
-    
+```  
 
 2. Откройте веб-браузер и перейдите по адресу http://localhost:8000/newsletter/create/.
 
