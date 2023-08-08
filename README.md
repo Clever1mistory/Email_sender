@@ -12,23 +12,23 @@
 
 2. Склонируйте репозиторий проекта:
 
-    
+   ```
     git clone [https://github.com/your/repository.git](https://github.com/Clever1mistory/Email_sender)
-    
+   ```
 
 
-3. Создайте и активируйте виртуальное окружение:
+4. Создайте и активируйте виртуальное окружение:
 
     python -m venv myenv
     source myenv/bin/activate
     
 
-4. Установите зависимости:
+5. Установите зависимости:
 
     pip install -r requirements.txt
     
 
-5. Примените миграции:
+6. Примените миграции:
 
     python manage.py migrate
     
