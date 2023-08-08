@@ -10,7 +10,7 @@
 2. Склонируйте репозиторий проекта:
 
     
-    git clone https://github.com/your/repository.git
+    git clone [https://github.com/your/repository.git](https://github.com/Clever1mistory/Email_sender)
     
 
 
@@ -37,7 +37,7 @@
     python manage.py runserver
     
 
-2. Откройте веб-браузер и перейдите по адресу http://localhost:8000.
+2. Откройте веб-браузер и перейдите по адресу http://localhost:8000/newsletter/create/.
 
 3. Используйте интерфейс приложения для создания рассылок, отправки писем и отслеживания статистики.
 
