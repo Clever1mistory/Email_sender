@@ -1,0 +1,24 @@
+{% extends 'emailer/base.html' %}
+
+{% block content %}
+  <h2>Subscribers List</h2>
+  <ul>
+    {% for subscriber in subscribers %}
+      <li>{{ subscriber.name }} {{ subscriber.last_name }} - {{ subscriber.email }}</li>
+    {% empty %}
+      <li>No subscribers found.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+{% block styles %}
+<style>
+  ul {
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+</style>
+{% endblock %}

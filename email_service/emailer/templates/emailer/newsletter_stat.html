@@ -1,0 +1,11 @@
+{% extends 'emailer/base.html' %}
+
+{% block content %}
+  <h2>Newsletter Statistics: {{ newsletter.subject }}</h2>
+  <p>Total Opens: {{ opens.count }}</p>
+  <ul>
+    {% for open in opens %}
+      <li>{{ open.timestamp }} - {{ open.subscriber.email }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
