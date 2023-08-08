@@ -3,6 +3,9 @@
 
 Это проект Email Service, который предоставляет возможность отправки рассылок по электронной почте.
 
+![image](https://github.com/Clever1mistory/Email_sender/assets/128373879/23b9fc84-0cda-4765-abd7-0e8b1c995ac2)
+
+
 ## Установка
 
 1. Установите Python версии 2.7
